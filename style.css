@@ -5651,3 +5651,14 @@ blockquote {
     order: -9999;
   }
 }
+
+.center-container {
+  width: 60%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 425px) {
+  .center-container {
+    width: 80%;
+  }
+}
